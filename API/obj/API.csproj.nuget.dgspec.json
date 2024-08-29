@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\API\\API.csproj": {}
+    "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\api\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\API\\API.csproj": {
+    "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\api\\API.csproj",
         "packagesPath": "C:\\Users\\Kajeb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\API\\obj\\",
+        "outputPath": "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -48,6 +48,18 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
