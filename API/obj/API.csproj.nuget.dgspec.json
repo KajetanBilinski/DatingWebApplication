@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\api\\API.csproj": {}
+    "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\api\\API.csproj": {
+    "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\api\\API.csproj",
+        "projectPath": "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Kajeb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\api\\obj\\",
+        "outputPath": "C:\\Users\\Kajeb\\Documents\\GitHub\\datingapp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
