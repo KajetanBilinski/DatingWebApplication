@@ -121,3 +121,11 @@ C:\Users\Kajeb\Documents\GitHub\datingapp\API\bin\Debug\net8.0\runtimes\win-x64\
 C:\Users\Kajeb\Documents\GitHub\datingapp\API\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\Kajeb\Documents\GitHub\datingapp\API\obj\Debug\net8.0\API.csproj.AssemblyReference.cache
 C:\Users\Kajeb\Documents\GitHub\datingapp\API\obj\Debug\net8.0\API.csproj.Up2Date
+C:\Users\Kajeb\Documents\GitHub\datingapp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Kajeb\Documents\GitHub\datingapp\API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Kajeb\Documents\GitHub\datingapp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Kajeb\Documents\GitHub\datingapp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Kajeb\Documents\GitHub\datingapp\API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Kajeb\Documents\GitHub\datingapp\API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Kajeb\Documents\GitHub\datingapp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Kajeb\Documents\GitHub\datingapp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
