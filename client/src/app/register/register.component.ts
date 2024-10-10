@@ -1,36 +1,35 @@
-import { Component, inject, input, Output, output } from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { AccountService } from '../_services/account.service';
-import { ToastrService } from 'ngx-toastr';
+import { Component, inject, input, Output, output } from "@angular/core";
+import { FormsModule } from "@angular/forms";
+import { AccountService } from "../_services/account.service";
+import { ToastrService } from "ngx-toastr";
 
 @Component({
-  selector: 'app-register',
+  selector: "app-register",
   standalone: true,
   imports: [FormsModule],
-  templateUrl: './register.component.html',
-  styleUrl: './register.component.css'
+  templateUrl: "./register.component.html",
+  styleUrl: "./register.component.css",
 })
 export class RegisterComponent {
   // Testing input from parent to child component
-  userFromHomeComponent = input.required<any>()
+  userFromHomeComponent = input.required<any>();
   // ==
   private accountService = inject(AccountService);
-  private toastr = inject(ToastrService)
+  private toastr = inject(ToastrService);
   cancelation = output<boolean>();
-  model: any = {}
+  model: any = {};
 
-  register(){
+  register() {
     this.accountService.register(this.model).subscribe({
-        next: response=>{
-          console.log(response);
-          this.cancel();
-        },
-        error: error=>this.toastr.error(error.error)
-      }
-    )
+      next: (response) => {
+        console.log(response);
+        this.cancel();
+      },
+      error: (error) => this.toastr.error(error.error),
+    });
   }
 
-  cancel(){
+  cancel() {
     this.cancelation.emit(false);
   }
 }
