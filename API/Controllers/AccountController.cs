@@ -17,19 +17,21 @@ public class AccountController(DataContext context, ITokenService tokenService) 
     public async Task<ActionResult<AppUserDto>> Register (RegisterDto registerDto)
     {
         if(await UserExists(registerDto.Username)) return BadRequest("User exists");
-        using var hmac = new HMACSHA512(); //Hash-based Message Authentication Code) – kod MAC z wmieszanym kluczem
-        var user = new AppUser(){
-            UserName = registerDto.Username.ToLower(),
-            PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerDto.Password)),
-            PasswordSalt = hmac.Key
-        };
-        context.AppUsers.Add(user);
-        await context.SaveChangesAsync();
-        return new AppUserDto
-        {
-            Username = user.UserName,
-            Token = tokenService.CreateToken(user)
-        };
+        return Ok();
+        // using var hmac = new HMACSHA512(); //Hash-based Message Authentication Code) – kod MAC z wmieszanym kluczem
+        // var user = new AppUser()
+        // {
+        //     UserName = registerDto.Username.ToLower(),
+        //     PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerDto.Password)),
+        //     PasswordSalt = hmac.Key
+        // };
+        // context.AppUsers.Add(user);
+        // await context.SaveChangesAsync();
+        // return new AppUserDto
+        // {
+        //     Username = user.UserName,
+        //     Token = tokenService.CreateToken(user)
+        // };
     }
 
     [HttpPost("login")]
