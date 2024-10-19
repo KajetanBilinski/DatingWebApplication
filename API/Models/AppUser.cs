@@ -25,9 +25,13 @@ public class AppUser
     public required string Country {get; set;} 
     public List<Photo> Photos {get; set;} = [];
 
+    // Automapper - if the property is called the same as method with prefix "Get" 
+    // it will automaticly use it as a value of property
+    // Automapper - because of DoB is not in member it still needs to select all of values to get the age.
     public int GetAge()
     {
         return DateOfBirth.CalculateAge();
     }
+
 }
 

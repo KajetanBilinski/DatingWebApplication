@@ -130,3 +130,4 @@ C:\Users\Kajeb\Documents\GitHub\datingapp\API\bin\Debug\net8.0\Microsoft.AspNetC
 C:\Users\Kajeb\Documents\GitHub\datingapp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Kajeb\Documents\GitHub\datingapp\API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Kajeb\Documents\GitHub\datingapp\API\bin\Debug\net8.0\Data\UserSeedData.json
+C:\Users\Kajeb\Documents\GitHub\datingapp\API\bin\Debug\net8.0\AutoMapper.dll

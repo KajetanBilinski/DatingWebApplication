@@ -18,6 +18,10 @@ public static class ApplicationServiceExtensions
         services.AddCors();
         services.AddScoped<ITokenService, TokenService>();
         services.AddScoped<IUserRepository, UserRepository>();
+        // AppDomain is a isolated container for running code
+        // GetAssemblies is returning all classes methods and other resources
+        // If the class inherits from "profiles" it will be added to automapper
+        services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         return services;
     }
 }
