@@ -19,7 +19,7 @@ Aplikacja randkowa zbudowana z wykorzystaniem **ASP.NET Core 8.0** po stronie ba
 
 ## Wymagania wstępne
 
-Przed rozpoczęciem upewnij się, że masz zainstalowane następujące narzędzia:
+Wymagane narzędzia uruchomieniowe:
 
 - [Node.js](https://nodejs.org/)
 - [Angular CLI](https://angular.io/cli)
