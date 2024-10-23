@@ -1,6 +1,6 @@
 # Dating App
 
-Aplikacja randkowa zbudowana z wykorzystaniem **ASP.NET Core 8.0** po stronie backendu oraz **Angular 17** po stronie frontendu. Użytkownicy mogą rejestrować się, tworzyć profile z dodanymi zdjęciami, wyszukiwać potencjalne pary przy użyciu filtrów oraz komunikować się w czasie rzeczywistym z innymi użytkownikami. Aplikacja korzysta z **SQLite** do przechowywania danych, co ułatwia konfigurację i testowanie, a także używa **JWT Token** do bezpiecznej autoryzacji. 
+Aplikacja randkowa zbudowana z wykorzystaniem **ASP.NET Core 8.0** po stronie backendu oraz **Angular 17** po stronie frontendu. Użytkownicy mogą rejestrować się, tworzyć profile z dodanymi zdjęciami, wyszukiwać potencjalne pary przy użyciu filtrów oraz komunikować się w czasie rzeczywistym z innymi użytkownikami. Aplikacja korzysta z **SQLite** do przechowywania danych, co ułatwia konfigurację i testowanie, a także używa **JWT Token** do bezpiecznej autoryzacji.
 
 ## Funkcjonalności
 
